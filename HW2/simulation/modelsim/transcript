@@ -1,0 +1,6 @@
+# Compile of edge_detect.v was successful.
+# Compile of HW2.v was successful.
+# Compile of hw2_tb.v was successful.
+# Compile of M25AA010A.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.hw2_tb

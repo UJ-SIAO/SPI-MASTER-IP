@@ -1,0 +1,29 @@
+D:/QuartusCode/HW2/M25AA010A.v {1 {vlog -work work -stats=none D:/QuartusCode/HW2/M25AA010A.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M25AA010A
+
+Top level modules:
+	M25AA010A
+
+} {} {}} D:/QuartusCode/HW2/edge_detect.v {1 {vlog -work work -stats=none D:/QuartusCode/HW2/edge_detect.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module edge_detect
+
+Top level modules:
+	edge_detect
+
+} {} {}} D:/QuartusCode/HW2/HW2.v {1 {vlog -work work -stats=none D:/QuartusCode/HW2/HW2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HW2
+
+Top level modules:
+	HW2
+
+} {} {}} D:/QuartusCode/HW2/hw2_tb.v {1 {vlog -work work -stats=none D:/QuartusCode/HW2/hw2_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hw2_tb
+
+Top level modules:
+	hw2_tb
+
+} {} {}}

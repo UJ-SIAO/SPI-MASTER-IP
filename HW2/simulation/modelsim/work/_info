@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QuartusCode/HW2/simulation/modelsim
+vedge_detect
+Z1 !s110 1588051886
+!i10b 1
+!s100 l_f^K>@AZkhH076;d2^W60
+IO6emSMalN;`:jg=2@fjKc3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1587999892
+8D:/QuartusCode/HW2/edge_detect.v
+FD:/QuartusCode/HW2/edge_detect.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1588051886.000000
+!s107 D:/QuartusCode/HW2/edge_detect.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/QuartusCode/HW2/edge_detect.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vHW2
+R1
+!i10b 1
+!s100 ;^<@5n23OPLnS<m6fdWHz0
+I_gEfACho7R:93BgSi3zh@3
+R2
+R0
+w1588050397
+8D:/QuartusCode/HW2/HW2.v
+FD:/QuartusCode/HW2/HW2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/QuartusCode/HW2/HW2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/QuartusCode/HW2/HW2.v|
+!i113 1
+R5
+R6
+n@h@w2
+vhw2_tb
+R1
+!i10b 1
+!s100 JmXnl=^7kMR>?H2lbTnK@2
+I<[M=^FiX^0NbM^Xo1c5Jd0
+R2
+R0
+w1588051684
+8D:/QuartusCode/HW2/hw2_tb.v
+FD:/QuartusCode/HW2/hw2_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/QuartusCode/HW2/hw2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/QuartusCode/HW2/hw2_tb.v|
+!i113 1
+R5
+R6
+vM25AA010A
+R1
+!i10b 1
+!s100 fD>g_OWamZh6KTADO?Xch0
+IhJUh6NH@b3PZ[Cn3e5:nA1
+R2
+R0
+w1587991596
+8D:/QuartusCode/HW2/M25AA010A.v
+FD:/QuartusCode/HW2/M25AA010A.v
+L0 81
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/QuartusCode/HW2/M25AA010A.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/QuartusCode/HW2/M25AA010A.v|
+!i113 1
+R5
+R6
+n@m25@a@a010@a

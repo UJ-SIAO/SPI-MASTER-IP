@@ -1,0 +1,59 @@
+# vsim -gui -l msim_transcript work.hw2_tb 
+# Start time: 16:07:02 on Apr 28,2020
+# Loading work.hw2_tb
+# Loading work.HW2
+# Loading work.edge_detect
+# Loading work.M25AA010A
+add wave -position insertpoint  \
+sim:/hw2_tb/clk_50M \
+sim:/hw2_tb/reset_n \
+sim:/hw2_tb/write \
+sim:/hw2_tb/write_complete \
+sim:/hw2_tb/write_value \
+sim:/hw2_tb/spi_csn \
+sim:/hw2_tb/spi_sck \
+sim:/hw2_tb/spi_do
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/hw2_tb/clk_50M \
+sim:/hw2_tb/reset_n \
+sim:/hw2_tb/write \
+sim:/hw2_tb/write_complete \
+sim:/hw2_tb/write_value \
+sim:/hw2_tb/spi_csn \
+sim:/hw2_tb/spi_sck \
+sim:/hw2_tb/spi_do
+# Compile of edge_detect.v was successful.
+# Compile of HW2.v was successful.
+# Compile of hw2_tb.v was successful.
+# Compile of M25AA010A.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.hw2_tb
+# Loading work.HW2
+# Loading work.edge_detect
+# Loading work.M25AA010A
+run -all
+# time=  0 memory_00=0xxx memory_01=0xxx memory_02=0xxx
+# time=6070 write_date=0x06 
+# time=1012110 write_date=0x02 
+# time=1018150 write_date=0x00 
+# time=1024190 write_date=0x78 
+# time=6024190 memory_00=0x78 memory_01=0xxx memory_02=0xxx
+# time=7030230 write_date=0x06 
+# time=8036270 write_date=0x02 
+# time=8042310 write_date=0x01 
+# time=8048350 write_date=0x9a 
+# time=13048350 memory_00=0x78 memory_01=0x9a memory_02=0xxx
+# time=14054390 write_date=0x06 
+# time=15060430 write_date=0x02 
+# time=15066470 write_date=0x02 
+# time=15072510 write_date=0xbc 
+# time=20072510 memory_00=0x78 memory_01=0x9a memory_02=0xbc
+# ** Note: $finish    : D:/QuartusCode/HW2/hw2_tb.v(87)
+#    Time: 21072510 ns  Iteration: 0  Instance: /hw2_tb
+# 1
+# Break in Module hw2_tb at D:/QuartusCode/HW2/hw2_tb.v line 87
+# End time: 16:12:09 on Apr 28,2020, Elapsed time: 0:05:07
+# Errors: 1, Warnings: 0
